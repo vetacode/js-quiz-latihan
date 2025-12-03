@@ -1,0 +1,104 @@
+/* ===== RESET & BODY ===== */
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  padding: 2%;
+  background-color: whitesmoke;
+  margin: 0;
+}
+
+/* ===== HEADINGS ===== */
+h1 {
+  color: goldenrod;
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  text-align: center;
+  margin-bottom: 20px;
+}
+h2 {
+  margin-top: 10px;
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
+}
+
+/* ===== QUIZ CONTAINER ===== */
+.question {
+  margin-bottom: 15px;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== LEVEL COLOR ===== */
+.Beginner {
+  background-color: #e0f7e0;
+}
+.Middle {
+  background-color: #fff8e1;
+}
+.Advanced {
+  background-color: #ffe0e0;
+}
+
+/* ===== ANSWERS ===== */
+.answer {
+  margin-top: 5px;
+  font-size: clamp(0.9rem, 2vw, 1rem);
+}
+.correct {
+  color: green;
+}
+.wrong {
+  color: red;
+}
+
+/* ===== INPUT ===== */
+input[type='text'] {
+  width: 100%;
+  max-width: 500px;
+  padding: 0.6em;
+  margin-top: 15px;
+  border-radius: 7px;
+  font-size: clamp(0.9rem, 2vw, 1rem);
+}
+
+/* ===== BUTTON ===== */
+button {
+  display: block;
+  padding: 0.8em 2em;
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
+  margin: 20px auto;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  background-color: goldenrod;
+  color: white;
+  transition: background-color 0.3s;
+}
+button:hover {
+  background-color: greenyellow;
+  color: black;
+}
+
+/* ===== SCORE ===== */
+#score {
+  margin-top: 20px;
+  font-size: clamp(1rem, 3vw, 1.5rem);
+  text-align: center;
+}
+
+/* ===== MEDIA QUERIES ===== */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  button {
+    width: 90%;
+    padding: 0.8em;
+    font-size: 1rem;
+  }
+}
