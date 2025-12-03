@@ -667,3 +667,5 @@ function checkAnswers() {
   }</h3>
         <h1>Score: ${((score / quizData.length) * 100).toFixed(0)}</h1>`;
 }
+
+document.getElementById('submitBtn').addEventListener('click', checkAnswers);
