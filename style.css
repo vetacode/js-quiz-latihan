@@ -44,6 +44,7 @@ h2 {
 /* ===== ANSWERS ===== */
 .answer {
   margin-top: 5px;
+  margin-bottom: 0.5rem;
   font-size: clamp(0.9rem, 2vw, 1rem);
 }
 .correct {
