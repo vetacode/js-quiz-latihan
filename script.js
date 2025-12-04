@@ -641,7 +641,7 @@ quizData.forEach((q, i) => {
   div.innerHTML = `
           <h2>${i + 1}. ${q.level}</h2>
           <div><b>${q.question}</b></div>
-          <input type="text" id="ans${i}" placeholder="Jawabanmu di sini">
+          <input type="text" id="ans${i}" placeholder="Jawab di sini...">
           <div class="answer" id="exp${i}"></div>
         `;
   quizContainer.appendChild(div);
