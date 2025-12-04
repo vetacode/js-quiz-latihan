@@ -66,6 +66,7 @@ input[type='text'] {
 
 /* ===== BUTTON ===== */
 button {
+  width: 100%;
   display: block;
   padding: 0.8em 2em;
   font-size: clamp(1rem, 2.5vw, 1.2rem);
@@ -77,6 +78,7 @@ button {
   color: white;
   transition: background-color 0.3s;
 }
+
 button:hover {
   background-color: greenyellow;
   color: black;
@@ -98,7 +100,6 @@ button:hover {
     font-size: 1rem;
   }
   button {
-    width: 90%;
     padding: 0.8em;
     font-size: 1rem;
   }
